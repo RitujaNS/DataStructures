@@ -4,7 +4,7 @@ class Stack:
     def push(self,item):
         self.items.append(item)
     def pop(self):
-        self.items.pop()
+        return self.items.pop()
     def is_empty(self):
         return self.items == []
     def peek(self):
@@ -13,7 +13,7 @@ class Stack:
     def get_stack(self):
         return self.items
 
-s = Stack()
+"""s = Stack()
 print(s.is_empty())
 s.push("A")
 s.push("B")
@@ -23,4 +23,4 @@ print(s.get_stack())
 s.peek()
 s.pop()
 print(s.get_stack())
-print(s.is_empty())
+print(s.is_empty())"""
